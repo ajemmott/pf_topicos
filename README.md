@@ -1,12 +1,15 @@
 # Proyecto Final Topicos
 
-repositorio basico que hice para que podamos trabajar breve. 
+Repositorio basico que hice para que podamos trabajar breve. 
 
 ## _scripts
 contiene todos los scripts que desarrollemos.
 
 ### all_plotly_graph.py
 Script de python que grafica a todos los pokemon utlizando su peso X, altura Y y total base Z en un espacio tridimensional separando a los legendarios (color rosa) de los ordinarios (color turquesa).
+
+### kmeans_test.py
+Script para probar como funciona kmeans.
 
 ### legendary_plotly_graph.py
 Script de python que grafica unica mentea los pokemones legendarios utlizando su peso X, altura Y y total base  Z en un espacio tridimensional.
