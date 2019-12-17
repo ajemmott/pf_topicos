@@ -10,7 +10,7 @@ legend_df = df[df['is_legendary']==1]
 common_df = df[df['is_legendary']==0]
 
 # asigna un seed para numeros random para garantizar consistencia?
-np.random.seed(27)
+np.random.seed(25)
 
 #asigna un valor arbitrario a k
 k = 4
