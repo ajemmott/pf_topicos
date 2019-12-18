@@ -17,6 +17,9 @@ Script para kmeans con librería sklearn.
 ### legendary_plotly_graph.py
 Script de python que grafica unicamente a los pokemones legendarios utlizando su peso X, altura Y y total base  Z en un espacio tridimensional.
 
+### poke_rarity.py
+VErsion definitiva donde se aplica todo lo conocido.
+
 ## _assets
 Contiente todos los **recursos** que vayamos a utilizar en el proyecto.
 
