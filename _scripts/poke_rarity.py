@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 
 import plotly
 import plotly.graph_objects as go
+import plotly.io as pio
 from plotly.subplots import make_subplots
 
 raw_df = pd.read_csv('../_assets/pokemon-data/pokemon.csv')
@@ -98,7 +99,6 @@ for poke in range(801):
                     mode= 'markers',
                     marker= dict(
                         size= 3,
-                      
                         color= ['red'],
                         opacity = 0.3,
                         symbol=['diamond']   
@@ -109,10 +109,14 @@ for poke in range(801):
     
 
 # Crear Layout
-fig.update_layout(showlegend= False)
+fig.update_layout(
+    showlegend= False,
+    title= "Grupos de Pokemones Según sus Estadísticas (Kmeans para k=3)",
+    xaxis_title= 'Ataque',
+    yaxis_title= 'Defensa')
 
 # Graficar y guardar HTML
-fig.show()
+pio.write_html(fig, file="k=3_interactiva.html", auto_open= True)
 
 
 
